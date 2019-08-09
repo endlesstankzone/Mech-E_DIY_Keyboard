@@ -13865,11 +13865,11 @@
 <rectangle x1="-153.704925" y1="-57.540525" x2="-153.647775" y2="-57.521475" layer="25"/>
 <text x="0" y="-0.09525" size="0.0381" layer="25" font="vector">C:/Users/tankh/Pictures/ShelbyTech.bmp</text>
 <circle x="-223.1898" y="-22.07895" radius="0.1397" width="0.3048" layer="25"/>
-<text x="-247.28805" y="-28.78455" size="0.8128" layer="25">GND</text>
-<text x="-247.1166" y="-33.96615" size="0.8128" layer="25">VCC</text>
-<text x="-247.4595" y="-31.3563" size="0.8128" layer="25">MOSI</text>
-<text x="-238.8489" y="-33.96615" size="0.8128" layer="25">MISO</text>
-<text x="-239.21085" y="-31.3563" size="0.8128" layer="25">SCK</text>
+<text x="-247.6595" y="-28.78455" size="0.8128" layer="25">GND</text>
+<text x="-247.6595" y="-33.96615" size="0.8128" layer="25">VCC</text>
+<text x="-247.6595" y="-31.4563" size="0.8128" layer="25">MOSI</text>
+<text x="-239.1166" y="-33.96615" size="0.8128" layer="25">MISO</text>
+<text x="-239.1166" y="-31.3563" size="0.8128" layer="25">SCK</text>
 <text x="-239.268" y="-28.82265" size="0.8128" layer="27">RES</text>
 <wire x1="-239.97285" y1="-21.20265" x2="-239.97285" y2="-25.46985" width="0.3048" layer="25"/>
 <wire x1="-229" y1="-40" x2="-229" y2="-53.5" width="0.1524" layer="21"/>

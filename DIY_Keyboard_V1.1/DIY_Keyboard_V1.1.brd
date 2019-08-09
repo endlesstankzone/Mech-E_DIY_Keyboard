@@ -15591,11 +15591,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="-238.197" y="-34.84" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U$1" library="USB-TYPE-C-V2" package="USB_TYPE_C" value="USB_TYPE_C" x="-303.5" y="17" smashed="yes" rot="R180"/>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="56k" x="-226" y="-46.5" smashed="yes">
+<element name="R3" library="SparkFun-Resistors" package="0603" value="5.1k" x="-226" y="-46.5" smashed="yes">
 <attribute name="NAME" x="-226" y="-45.738" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="-226" y="-47.262" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="56k" x="-226" y="-49" smashed="yes">
+<element name="R4" library="SparkFun-Resistors" package="0603" value="5.1k" x="-226" y="-49" smashed="yes">
 <attribute name="NAME" x="-226" y="-48.238" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="-226" y="-49.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>

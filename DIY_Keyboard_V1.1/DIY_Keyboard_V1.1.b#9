@@ -17715,11 +17715,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="S80" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="R6" pad="2"/>
-<wire x1="-203.6472" y1="-51.5" x2="-229.5026" y2="-51.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-268.10335" y1="-18.19275" x2="-203.6472" y2="-51.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-253" y1="-11.75" x2="-268.10335" y2="-18.19275" width="0" layer="19" extent="1-1"/>
+<wire x1="-203.6472" y1="-51.5" x2="-203.65" y2="-49" width="0" layer="19" extent="1-1"/>
+<wire x1="-229.5026" y1="-51.5" x2="-228.25" y2="-47.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$83">
+<signal name="VCC">
 <contactref element="ATMEGA32U4-AU" pad="2"/>
 <contactref element="ATMEGA32U4-AU" pad="7"/>
 <contactref element="C1" pad="1"/>

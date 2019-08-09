@@ -3397,8 +3397,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-16MHZ" device="SMD-5X3.2" value="16MHz"/>
 <part name="ISP" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE"/>
 <part name="U$1" library="USB-TYPE-C-V2" deviceset="USB_TYPE_C" device=""/>
-<part name="R3" library="SparkFun-Resistors" deviceset="56KOHM" device="" value="56k"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="56KOHM" device="" value="56k"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="56KOHM" device="" value="5.1k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="56KOHM" device="" value="5.1k"/>
 <part name="D80" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
 <part name="S80" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM"/>

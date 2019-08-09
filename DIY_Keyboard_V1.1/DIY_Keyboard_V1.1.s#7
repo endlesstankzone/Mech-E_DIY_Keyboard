@@ -3064,6 +3064,7 @@ Used in manufacturing several products at SparkFun.
 <part name="D80" library="SparkFun-LED" deviceset="LED-WHITE" device="0603" value="WHITE"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="22OHM" device="-0603-1/10W-1%" value="22"/>
 <part name="S80" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -3754,6 +3755,10 @@ Used in manufacturing several products at SparkFun.
 <instance part="S80" gate="G$1" x="459.74" y="25.4" smashed="yes">
 <attribute name="NAME" x="459.74" y="26.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="459.74" y="24.892" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="C4" gate="G$1" x="486.41" y="50.038" smashed="yes">
+<attribute name="NAME" x="487.934" y="52.959" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="487.934" y="47.879" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -5325,6 +5330,11 @@ Used in manufacturing several products at SparkFun.
 <wire x1="454.66" y1="25.4" x2="452.12" y2="25.4" width="0.1524" layer="91"/>
 <label x="452.12" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="486.41" y1="47.498" x2="486.41" y2="45.466" width="0.1524" layer="91"/>
+<label x="486.41" y="45.466" size="1.778" layer="95" rot="R270"/>
+</segment>
 </net>
 <net name="N$83" class="0">
 <segment>
@@ -5484,6 +5494,14 @@ Used in manufacturing several products at SparkFun.
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="D80" gate="G$1" pin="A"/>
 <wire x1="553.72" y1="30.48" x2="556.26" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="ATMEGA32U4-AU" gate="A" pin="UCAP"/>
+<wire x1="486.41" y1="55.118" x2="486.41" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="486.41" y1="55.88" x2="500.38" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

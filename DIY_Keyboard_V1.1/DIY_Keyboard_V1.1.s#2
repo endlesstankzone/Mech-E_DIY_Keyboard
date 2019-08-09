@@ -5514,6 +5514,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="320.04" y1="-91.44" x2="320.04" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="320.04" y="-83.82"/>
 <label x="20.32" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="177.8" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="ATMEGA32U4-AU" gate="A" pin="PF5"/>
