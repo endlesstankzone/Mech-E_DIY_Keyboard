@@ -1,1 +1,3 @@
-avrdude -c arduino -P com10 -p m32u4 -U flash:w:
+avrdude -c arduino -P "com10" -p m32u4 -U flash:w:"Yourfile.hex"
+
+Enter filename and arduino comport
