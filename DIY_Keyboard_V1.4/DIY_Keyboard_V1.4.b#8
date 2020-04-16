@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -158,14 +158,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="-7.747" y1="88.7095" x2="312.547" y2="88.7095" width="0" layer="20"/>
-<wire x1="312.547" y1="88.7095" x2="317.3095" y2="83.947" width="0" layer="20" curve="-90" locked="yes"/>
-<wire x1="317.3095" y1="83.947" x2="317.3095" y2="-7.747" width="0" layer="20" locked="yes"/>
-<wire x1="317.3095" y1="-7.747" x2="312.547" y2="-12.5095" width="0" layer="20" curve="-90" locked="yes"/>
-<wire x1="312.547" y1="-12.5095" x2="-7.747" y2="-12.5095" width="0" layer="20" locked="yes"/>
-<wire x1="-7.747" y1="-12.5095" x2="-12.5095" y2="-7.747" width="0" layer="20" curve="-90" locked="yes"/>
-<wire x1="-12.5095" y1="-7.747" x2="-12.5095" y2="83.947" width="0" layer="20" locked="yes"/>
-<wire x1="-12.5095" y1="83.947" x2="-7.747" y2="88.7095" width="0" layer="20" curve="-90" locked="yes"/>
 <wire x1="-12.5095" y1="83.947" x2="-7.747" y2="88.7095" width="0.025" layer="49" curve="-90" locked="yes"/>
 <wire x1="-7.747" y1="-12.5095" x2="-12.5095" y2="-7.747" width="0.025" layer="49" curve="-90" locked="yes"/>
 <wire x1="317.3095" y1="-7.747" x2="312.547" y2="-12.5095" width="0.025" layer="49" curve="-90" locked="yes"/>
@@ -546,7 +538,7 @@
 <wire x1="-4.7625" y1="85.725" x2="-9.525" y2="80.9625" width="0.1524" layer="20" curve="90"/>
 <wire x1="-9.525" y1="80.9625" x2="-9.525" y2="-4.7625" width="0.1524" layer="20"/>
 <wire x1="-9.525" y1="-4.7625" x2="-4.7625" y2="-9.525" width="0.1524" layer="20" curve="90"/>
-<wire x1="-4.7625" y1="-9.525" x2="309.5625" y2="-9.525" width="0.1524" layer="20"/>
+<wire x1="-4.7625" y1="-9.525" x2="309.5625" y2="-9.525" width="0.1524" layer="20" locked="yes"/>
 <wire x1="309.5625" y1="-9.525" x2="314.325" y2="-4.7625" width="0.1524" layer="20" curve="90"/>
 </plain>
 <libraries>

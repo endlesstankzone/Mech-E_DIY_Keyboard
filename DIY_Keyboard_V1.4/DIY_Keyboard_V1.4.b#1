@@ -4160,6 +4160,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="-9.525" y="-4.7625"/>
 <vertex x="-9.525" y="80.9625" curve="-90"/>
 </polygon>
+<polygon width="0.254" layer="16">
+<vertex x="-4.7625" y="85.725"/>
+<vertex x="309.5625" y="85.725" curve="-90"/>
+<vertex x="314.325" y="80.9625"/>
+<vertex x="314.325" y="-4.7625" curve="-90"/>
+<vertex x="309.5625" y="-9.525"/>
+<vertex x="-4.7625" y="-9.525" curve="-90"/>
+<vertex x="-9.525" y="-4.7625"/>
+<vertex x="-9.525" y="80.9625" curve="-90"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="ATMEGA32U4-AU" pad="2"/>
