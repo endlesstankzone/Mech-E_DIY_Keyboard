@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.47625" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1875" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -4150,6 +4150,26 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="17.25" y="72.25" extent="1-16" drill="0.508"/>
 <via x="178.75" y="55.5" extent="1-16" drill="0.508"/>
 <via x="121" y="57.25" extent="1-16" drill="0.508"/>
+<polygon width="0.254" layer="1">
+<vertex x="-4.7625" y="85.725"/>
+<vertex x="309.5625" y="85.725" curve="-90"/>
+<vertex x="314.325" y="80.9625"/>
+<vertex x="314.325" y="-4.7625" curve="-90"/>
+<vertex x="309.5625" y="-9.525"/>
+<vertex x="-4.7625" y="-9.525" curve="-90"/>
+<vertex x="-9.525" y="-4.7625"/>
+<vertex x="-9.525" y="80.9625" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="16">
+<vertex x="-4.7625" y="85.725"/>
+<vertex x="309.5625" y="85.725" curve="-90"/>
+<vertex x="314.325" y="80.9625"/>
+<vertex x="314.325" y="-4.7625" curve="-90"/>
+<vertex x="309.5625" y="-9.525"/>
+<vertex x="-4.7625" y="-9.525" curve="-90"/>
+<vertex x="-9.525" y="-4.7625"/>
+<vertex x="-9.525" y="80.9625" curve="-90"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="ATMEGA32U4-AU" pad="2"/>
